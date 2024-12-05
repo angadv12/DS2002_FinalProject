@@ -25,7 +25,6 @@ pip install -r requirements.txt
 - These datasets were chosen to analyze whether the change in average annual median income is proportional to the rate of inflation. This is a relevant issue as it is often stressed how changes in inflation are outpacing changes in income, affecting cost of living, purchasing power, etc.
 
 ### ETL Setup
-to write:
 - Define ETL steps: extraction (loading from sources), transformation (cleaning,
 filtering, structuring), and loading (MySQL/MongoDB).
 - Provide a flowchart or diagram of the ETL pipeline.
@@ -41,8 +40,7 @@ to write:
 - Document the process, including credentials management and access control
 
 ### Reflection Paper
-to write:
-- Add link to google doc reflection
+- [Reflection](https://docs.google.com/document/d/1_V8ahrtEmrL1XhUhNlQpnsXA15N-FZq1gd_eoBC5kYU/edit?usp=sharing)
 
 ### Presentation
 to write:
