@@ -41,5 +41,4 @@ to write:
 - [Reflection](https://docs.google.com/document/d/1_V8ahrtEmrL1XhUhNlQpnsXA15N-FZq1gd_eoBC5kYU/edit?usp=sharing)
 
 ### Presentation
-to write:
-- Add link to slideshow 
+- [Presentation](https://docs.google.com/presentation/d/1P1pE2rCYhFRfa_BVIRr5M8UMTz75ea58vaKP6P82JfQ/edit?usp=sharing)
