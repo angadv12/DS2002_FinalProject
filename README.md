@@ -19,7 +19,7 @@ to install packages neccesary to run project run `pip install -r requirements.tx
 ## Project Breakdown
 ### Data Selection and Exploration
 - Obtained annual Consumer Price Index (CPI) data from [US Annual CPI Data](https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-).
-- Obtained average annual median income data from [[Median U.S. Household Income](https://fred.stlouisfed.org/series/MEHOINUSA646N)].
+- Obtained average annual median income data from [Median U.S. Household Income](https://fred.stlouisfed.org/series/MEHOINUSA646N).
 - These datasets were chosen to analyze whether the change in average annual median income is proportional to the rate of inflation. This is a relevant issue as it is often stressed how changes in inflation are outpacing changes in income, affecting cost of living, purchasing power, etc.
 
 ### ETL Setup
