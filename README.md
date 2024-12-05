@@ -23,11 +23,11 @@ to install packages neccesary to run project run `pip install -r requirements.tx
 - These datasets were chosen to analyze whether the change in average annual median income is proportional to the rate of inflation. This is a relevant issue as it is often stressed how changes in inflation are outpacing changes in income, affecting cost of living, purchasing power, etc.
 
 ### ETL Setup
-● Extraction: Loaded CSV files into a Python environment.
-● Transformation:
-○ Data cleaning (ensured consistency, normalized values).
-○ Derived new metrics (e.g., real income, normalized trends).
-● Loading: Data stored in MySQL with upsert logic to avoid duplication.
+- Extraction: Loaded CSV files into a Python environment.
+- Transformation:
+- Data cleaning (ensured consistency, normalized values).
+  -Derived new metrics (e.g., real income, normalized trends).
+- Loading: Data stored in MySQL with upsert logic to avoid duplication.
 
 ### Data Analysis
 to write/add:
