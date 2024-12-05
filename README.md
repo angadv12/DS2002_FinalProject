@@ -24,9 +24,7 @@ to install packages neccesary to run project run `pip install -r requirements.tx
 
 ### ETL Setup
 - Extraction: Loaded CSV files into a Python environment.
-- Transformation:
-- Data cleaning (ensured consistency, normalized values).
-  -Derived new metrics (e.g., real income, normalized trends).
+- Transformation: Data cleaning (ensured consistency, normalized values), derived new metrics (e.g., real income, normalized trends).
 - Loading: Data stored in MySQL with upsert logic to avoid duplication.
 
 ### Data Analysis
