@@ -6,6 +6,18 @@ Final Project for Data Science Systems, exploring link between education among d
 - Rohan Singh, psw2uw
 - Varun Togaru, wbz9mn
 
+### Depedencies
+
+to install packages neccesary to run project run,
+
+pip install -r requirements.txt
+
+### To Setup MySQL database
+- Start a locally hosted mysql server and run `mysql -u root`.
+- Run SQL query `CREATE DATABASE etl_project;`.
+- Then run `USE etl_project;` to use the database you just created.
+- Run `python ETL_script.py` to create the cpi and income tables.
+
 ## Project Breakdown
 ### Data Selection and Exploration
 - Obtained annual Consumer Price Index (CPI) data from [US Annual CPI Data](https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-).
