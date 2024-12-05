@@ -16,7 +16,7 @@ to install packages neccesary to run project run `pip install -r requirements.tx
 - Then run `USE etl_project;` to use the database you just created.
 - Run `python ETL_script.py` to create the cpi and income tables.
 
-## Project Breakdown
+## Project Outline
 ### Data Selection and Exploration
 - Obtained annual Consumer Price Index (CPI) data from [US Annual CPI Data](https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-).
 - Obtained average annual median income data from [Median U.S. Household Income](https://fred.stlouisfed.org/series/MEHOINUSA646N).
