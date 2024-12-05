@@ -29,13 +29,11 @@ to install packages neccesary to run project run `pip install -r requirements.tx
 
 ### Data Analysis
 - Key Visualizations: Normalized trends (CPI vs. Income), Real income projections, Annual income growth vs. CPI growth.
-
 - Income and CPI trends are closely aligned, indicating economic interdependence.
 
 ### Cloud Storage
 - Google Cloud Storage (GCS) used for scalable data storage.
 - Secure credentials managed with environment variables.
-
 
 ### Reflection Paper
 - [Reflection](https://docs.google.com/document/d/1_V8ahrtEmrL1XhUhNlQpnsXA15N-FZq1gd_eoBC5kYU/edit?usp=sharing)
