@@ -8,9 +8,7 @@ Final Project for Data Science Systems, exploring link between education among d
 
 ### Depedencies
 
-to install packages neccesary to run project run,
-
-pip install -r requirements.txt
+to install packages neccesary to run project run `pip install -r requirements.txt`.
 
 ### To Setup MySQL database
 - Start a locally hosted mysql server and run `mysql -u root`.
