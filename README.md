@@ -8,8 +8,9 @@ Final Project for Data Science Systems, exploring link between education among d
 
 ## Project Breakdown
 ### Data Selection and Exploration
-to write:
-- Document the rationale for choosing the datasets, including the expected insights.
+- Obtained annual Consumer Price Index (CPI) data from [US Annual CPI Data](https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator/consumer-price-index-1913-).
+- Obtained average annual median income data from [ADD HERE].
+- These datasets were chosen to analyze whether the change in average annual median income is proportional to the rate of inflation. This is a relevant issue as it is often stressed how changes in inflation are outpacing changes in income, affecting cost of living, purchasing power, etc.
 
 ### ETL Setup
 to write:
