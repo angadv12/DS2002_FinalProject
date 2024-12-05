@@ -11,7 +11,7 @@ Final Project for Data Science Systems, exploring link between education among d
 to install packages neccesary to run project run `pip install -r requirements.txt`.
 
 ### To Setup MySQL database
-- Start a locally hosted mysql server and run `mysql -u root`.
+- Start a locally hosted mysql server and run shell command `mysql -u root`.
 - Run SQL query `CREATE DATABASE etl_project;`.
 - Then run `USE etl_project;` to use the database you just created.
 - Run `python ETL_script.py` to create the cpi and income tables.

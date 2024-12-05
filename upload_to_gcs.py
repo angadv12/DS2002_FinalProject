@@ -1,7 +1,7 @@
 from google.cloud import storage
 import os
 
-# Set up Google Cloud credentials
+# set up gcp credentials
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "dsaproj-443805-d8bcb4ccde8c.json"
 
 def upload_to_gcs(bucket_name, source_file_name, destination_blob_name):
@@ -18,23 +18,23 @@ def upload_to_gcs(bucket_name, source_file_name, destination_blob_name):
         bucket = client.bucket(bucket_name)
         blob = bucket.blob(destination_blob_name)
 
-        # Upload the file
+        # upload the file
         blob.upload_from_filename(source_file_name)
         print(f"File '{source_file_name}' successfully uploaded to '{bucket_name}/{destination_blob_name}'.")
     except Exception as e:
         print(f"An error occurred: {e}")
 
 if __name__ == "__main__":
-    BUCKET_NAME = "dsaprojfinal"  # Replace with your GCS bucket name
+    BUCKET_NAME = "dsaprojfinal"
 
-    # Upload cleaned_average_annual_income.csv
+    # upload cleaned_average_annual_income.csv
     upload_to_gcs(
         bucket_name=BUCKET_NAME,
         source_file_name="cleaned_data/cleaned_average_annual_income.csv",
         destination_blob_name="cleaned_average_annual_income.csv"
     )
 
-    # Upload cleaned_average_annual_CPI.csv
+    # upload cleaned_average_annual_CPI.csv
     upload_to_gcs(
         bucket_name=BUCKET_NAME,
         source_file_name="cleaned_data/cleaned_average_annual_CPI.csv",
